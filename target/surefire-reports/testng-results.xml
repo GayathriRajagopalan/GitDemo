@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="46020" started-at="2019-09-17T18:21:55Z" finished-at="2019-09-17T18:22:41Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="46020" started-at="2019-09-17T18:21:55Z" finished-at="2019-09-17T18:22:41Z">
+      <class name="academy.ValidatingAssertions">
+        <test-method status="PASS" signature="Assertions1()[pri:0, instance:academy.ValidatingAssertions@1dde4cb2]" name="Assertions1" duration-ms="65" started-at="2019-09-17T13:22:36Z" finished-at="2019-09-17T13:22:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Assertions1 -->
+      </class> <!-- academy.ValidatingAssertions -->
+      <class name="academy.ValidatingNavBar">
+        <test-method status="PASS" signature="Assertion2()[pri:0, instance:academy.ValidatingNavBar@59fd97a8]" name="Assertion2" duration-ms="108" started-at="2019-09-17T13:22:20Z" finished-at="2019-09-17T13:22:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Assertion2 -->
+      </class> <!-- academy.ValidatingNavBar -->
+      <class name="academy.Homepage">
+        <test-method status="PASS" signature="firststep()[pri:0, instance:academy.Homepage@f5ac9e4]" name="firststep" is-config="true" duration-ms="2653" started-at="2019-09-17T13:21:55Z" finished-at="2019-09-17T13:21:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firststep -->
+        <test-method status="PASS" signature="firststep()[pri:0, instance:academy.ValidatingAssertions@1dde4cb2]" name="firststep" is-config="true" duration-ms="11349" started-at="2019-09-17T13:21:57Z" finished-at="2019-09-17T13:22:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firststep -->
+        <test-method status="PASS" signature="firststep()[pri:0, instance:academy.ValidatingNavBar@59fd97a8]" name="firststep" is-config="true" duration-ms="11107" started-at="2019-09-17T13:22:09Z" finished-at="2019-09-17T13:22:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firststep -->
+        <test-method status="PASS" signature="Firstpagenavigation(java.lang.String, java.lang.String)[pri:0, instance:academy.Homepage@f5ac9e4]" name="Firstpagenavigation" duration-ms="10240" started-at="2019-09-17T13:22:20Z" data-provider="getData" finished-at="2019-09-17T13:22:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gayathri@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Firstpagenavigation -->
+        <test-method status="PASS" signature="Firstpagenavigation(java.lang.String, java.lang.String)[pri:0, instance:academy.Homepage@f5ac9e4]" name="Firstpagenavigation" duration-ms="5719" started-at="2019-09-17T13:22:30Z" data-provider="getData" finished-at="2019-09-17T13:22:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ravi@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Firstpagenavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:academy.Homepage@f5ac9e4]" name="teardown" is-config="true" duration-ms="94" started-at="2019-09-17T13:22:36Z" finished-at="2019-09-17T13:22:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:academy.ValidatingAssertions@1dde4cb2]" name="teardown" is-config="true" duration-ms="2333" started-at="2019-09-17T13:22:36Z" finished-at="2019-09-17T13:22:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:academy.ValidatingNavBar@59fd97a8]" name="teardown" is-config="true" duration-ms="2339" started-at="2019-09-17T13:22:38Z" finished-at="2019-09-17T13:22:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- academy.Homepage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
